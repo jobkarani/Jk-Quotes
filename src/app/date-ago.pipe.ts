@@ -1,12 +1,20 @@
 import { Pipe, PipeTransform } from '@angular/core';
 
 @Pipe({
-  name: 'dateAgo'
+  name: 'dateAgo',
+  pure: true
 })
 export class DateAgoPipe implements PipeTransform {
+  seconds!:number;
+  minutes!:number;
+  hours!:number;
+  days!:number;
+  transform(date:Date): String {
+    this.seconds = new Date().getSeconds() - date.getSeconds();
+    this.minutes = new Date().getMinutes() - date.getMinutes();
+    this.hours = new Date().getHours() - date.getHours();
+    this.days = date.getDay() - new Date().getDay() ;
 
-  transform(value: unknown, ...args: unknown[]): unknown {
-    return null;
+    return `${this.days} days, ${this.hours} hours, ${this.minutes} minutes, ${this.seconds} seconds ago`; 
   }
-
 }
