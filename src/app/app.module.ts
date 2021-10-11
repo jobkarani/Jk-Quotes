@@ -7,6 +7,7 @@ import { InputComponent } from './input/input.component';
 import { InputDetailComponent } from './input-detail/input-detail.component';
 import { FormsModule } from '@angular/forms';
 import { QuoteDetailsComponent } from './quote-details/quote-details.component';
+import { DateAgoPipe } from './date-ago.pipe';
 
 @NgModule({
   declarations: [
@@ -14,6 +15,7 @@ import { QuoteDetailsComponent } from './quote-details/quote-details.component';
     InputComponent,
     InputDetailComponent,
     QuoteDetailsComponent,
+    DateAgoPipe,
   ],
   imports: [
     BrowserModule,
