@@ -7,7 +7,7 @@
         </div>
 
         <div class="col-md-6">
-            <div class="display">
+            <div class="display" background-color = "blue">
                 <ul *ngFor='let quote of quotes; let i = index'>
                     <li><h2><b>{{quote.name}}</b></h2>{{quote.quote}} <br> {{quote.date|dateAgo}}</li>
 
