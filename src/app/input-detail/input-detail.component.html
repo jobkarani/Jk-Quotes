@@ -9,7 +9,7 @@
         <div class="col-md-6">
             <div class="display" background-color = "blue">
                 <ul *ngFor='let quote of quotes; let i = index'>
-                    <li><h2><b>{{quote.name}}</b></h2>{{quote.quote}} <br> {{quote.date|dateAgo}}</li>
+                    <li><h2><b>{{quote.name}}</b></h2>{{quote.quote}} <br><small> {{quote.date|dateAgo}}</small></li>
 
                     <div class="btn">
                         <button (click)='like(i)'><img src="https://www.freeiconspng.com/uploads/like-button-png-2.png"
