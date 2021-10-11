@@ -14,6 +14,13 @@ export class InputDetailComponent implements OnInit {
 
   ];
 
+  addQuote(quote:Quotes) {
+       const quoteLength = this.quotes.length;
+       quote.id = quoteLength + 1;
+       this.quotes.push(quote);
+
+  }
+
   like(i:number) {
     this.quotes[i].likes += 1;
 
