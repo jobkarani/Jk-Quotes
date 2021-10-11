@@ -1,27 +1,47 @@
-# JkQuotes
+#Jk-Quotes
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.7.
+## Author
+Job Karani
 
-## Development server
+## Created on 11-10-2021
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+### Project Description
+This is core's week1 Independent project.It entails an app whereby one can post and or delete their own quotes.The quotes can also be voted on by liking or disliking the quote.It also contains a time stamp showing the amount of time that has passed since the quote was created.
 
-## Code scaffolding
+## Setup Requirements
+* Git
+* Web-browser or your choice
+* Github
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Setup Insatallation
+* Copy the github url
+* Clone to your computer
+* Double click the index.html to go live/start your live server.
 
-## Build
+## Technologies used
+* HTML
+* CSS
+* Bootstrap
+* Javascript
+* Typescript
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Setup/Installation Requirements
+* This is the live link to view my project <a href="https://jobkarani.github.io/Jk-Quotes/">View Jk-Quotes</a>
 
-## Running unit tests
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Known Bugs
+No known bugs as of know :) .
 
-## Running end-to-end tests
+## Support and contact details
+If you have any suggestion or contributions about this project, you can reach out to me on:
+* Email: jobkarani084j@gmail.com
+* Phone: +254707367650
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+## License
+Copyright <2021> <Moringa School>
 
-## Further help
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
