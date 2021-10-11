@@ -1,6 +1,6 @@
 <div class="display">
     <ul *ngFor='let quote of quotes; let i = index'>
-      <li><u><h2><b>{{quote.name}}</b></h2></u>{{quote.quote}} {{quote.date|dateAgo}}</li>
+      <li><u><h2><b>{{quote.name}}</b></h2></u>{{quote.quote}} </li>
       
     <button (click)='like(i)'><img src="https://www.freeiconspng.com/uploads/like-button-png-2.png" width="50" height="50">{{quote.likes}}</button>
     <br>
@@ -11,8 +11,8 @@
     <br>
     <br>
     
-     <app-quote-details  [quote]='quote' (isComplete)= 'completequote($event,i)'></app-quote-details>
+     <app-quote-details  [quote]='quote'></app-quote-details>
     
     </ul>
     
-    <app-input (addquote)='addQuote($event)'></app-input>
+    <app-input ></app-input>

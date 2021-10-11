@@ -14,7 +14,17 @@ export class InputDetailComponent implements OnInit {
 
   ];
 
-  
+  like(i:number) {
+    this.quotes[i].likes += 1;
+
+        console.log(this.quotes[i]);
+
+}
+dislike(i:number) {
+  this.quotes[i].dislikes += 1;
+
+      console.log(this.quotes[i]);
+}
 
   constructor() { }
 
