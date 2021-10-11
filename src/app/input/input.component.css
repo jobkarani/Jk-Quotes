@@ -1,6 +1,12 @@
-.container{
+form{
+    color: white;
     background-color: chartreuse;
+    border-radius: 35px 35px 35px 35px;
+    margin-top: 150px;
 }
-.form-group, #submit{
-    margin-left: 300px;
+.form-group{
+    text-align: center;
+}
+#submit{
+    background-color: blue;
 }

@@ -1,22 +1,15 @@
 <div class="container">
-
-  <form #quote='ngForm' (ngSubmit)='submitform()'>
-  <div class="form-group">
-  
-      <label for='name'><h2>Name</h2></label><br>
-        <input type="text" [(ngModel)]='this.freshQuote.name' place holder="name"  name="name"  required><br>
-    </div>
-    <div class="form-group">
-        <label for='quote'><h2>Quote</h2></label><br>
-          <textarea type='text' placeholder='quote' [(ngModel)]='this.freshQuote.quote' name='quote' required></textarea><br>
-    </div>
-  
-      <div class="form-group">
-        <label for='date'><h2>Date</h2></label><br>
-          <input type="date"  placeholder='date' name='date' [(ngModel)]='this.freshQuote.date' required><br>
-      <br>
-    </div>
-      <button id="submit" class="btn btn-primary" type='submit'>POST</button>
-  </form>
-  </div>
+    <form class="form-group" #quote='ngForm' (ngSubmit)='submitform()'>
+          <label for='name'><h2>Name</h2></label><br>
+            <input type="text" [(ngModel)]='this.freshQuote.name' place holder="name"  name="name"  required><br>
+            
+            <label for='quote'><h2>Quote</h2></label><br>
+              <textarea type='text' placeholder='quote' [(ngModel)]='this.freshQuote.quote' name='quote' required></textarea><br>
+      
+            <label for='date'><h2>Date</h2></label><br>
+              <input type="date"  placeholder='date' name='date' [(ngModel)]='this.freshQuote.date' required><br>
+        <br>
+          <button id="submit" class="btn btn-primary" type='submit'>POST</button>
+      </form>
+</div>
   
