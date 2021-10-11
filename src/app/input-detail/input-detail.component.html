@@ -11,7 +11,7 @@
     <br>
     <br>
     
-     <app-quote-details  [quote]='quote'></app-quote-details>
+     <app-quote-details  [quote]='quote' (isComplete)= 'completequote($event,i)'></app-quote-details>
     
     </ul>
     

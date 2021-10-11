@@ -21,6 +21,15 @@ export class InputDetailComponent implements OnInit {
 
   }
 
+  completequote(isComplete:boolean, index:number) {
+    if (isComplete) {
+        const toDelete = confirm(`Are you sure you want to delete ${this.quotes[index].name}`);
+        if (toDelete) {
+            this.quotes.splice(index, 1);
+        }
+    }
+}
+
   like(i:number) {
     this.quotes[i].likes += 1;
 
