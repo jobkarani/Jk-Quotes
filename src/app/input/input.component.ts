@@ -9,7 +9,17 @@ import { Quotes } from '../quotes';
   })
 export class InputComponent implements OnInit {
 
+  @Input() quote!: Quotes;
+  @Output() addquote = new EventEmitter<Quotes>();
 
+  freshQuote = new Quotes(0, '', '', new Date(), 0, 0 );
+
+  submitform() {
+    console.log(this.freshQuote)
+              this.addquote.emit(this.freshQuote);
+              alert('form submitted');
+              console.log('form submitted');
+  }
     
 
     constructor() { }
