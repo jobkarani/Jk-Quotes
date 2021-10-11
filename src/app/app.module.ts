@@ -4,6 +4,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { InputComponent } from './input/input.component';
+import { InputDetailComponent } from './input-detail/input-detail.component';
 import { FormsModule } from '@angular/forms';
 import { QuoteDetailsComponent } from './quote-details/quote-details.component';
 
@@ -11,6 +12,7 @@ import { QuoteDetailsComponent } from './quote-details/quote-details.component';
   declarations: [
     AppComponent,
     InputComponent,
+    InputDetailComponent,
     QuoteDetailsComponent,
   ],
   imports: [
